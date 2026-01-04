@@ -2,4 +2,4 @@
 
 set -e;
 
-topgrade --yes --skip-notify;
+topgrade --yes --skip-notify --allow-root --no-retry --run-type damp;
